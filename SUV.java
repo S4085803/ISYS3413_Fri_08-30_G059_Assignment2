@@ -1,4 +1,7 @@
 
+// Author: Saneli Ratnayake (s4085803)
+// Contribution: SUV class 
+
 public class SUV extends Vehicle {
     private int SeatLimit;
     private int clearanceLevel;
