@@ -1,3 +1,5 @@
+// Author: Saneli Ratnayake (s4085803)
+// Contribution: Extra Item class 
 
 public class ExtraItem {
     private String itemName;
