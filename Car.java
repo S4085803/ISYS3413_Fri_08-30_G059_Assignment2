@@ -1,5 +1,5 @@
 // Author: Saneli Ratnayake (s4085803)
-// Contribution: Vehicle class 
+// Contribution: Car class 
 
 public class Car extends Vehicle {
     private String transmission;
