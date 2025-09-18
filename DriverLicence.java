@@ -1,3 +1,5 @@
+// Author: Saneli Ratnayake (s4085803)
+// Contribution: Driver licence class 
 
 public class DriverLicence {
     private String licenceNum;
