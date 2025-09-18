@@ -1,3 +1,5 @@
+// Author: Saneli Ratnayake (s4085803)
+// Contribution: Vehicle class 
 
 public class Vehicle {
     protected String vehicleNum;
