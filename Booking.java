@@ -1,8 +1,7 @@
-
 // Authors: 
 // Saneli Ratnayake (s4085803): Vehicle integration
-// Sowndharya [ID]: Flights integration
-// Dithara [ID]: Accommodation integration
+// Sowndharya (s4090884): Flights integration
+// Dithara (S4056824): Accommodation integration
 // Contribution: Shared Booking class
 
 import java.util.Date;
