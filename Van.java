@@ -1,3 +1,5 @@
+// Author: Saneli Ratnayake (s4085803)
+// Contribution: Van class 
 
 public class Van extends Vehicle {
     private int maxCapacity;
