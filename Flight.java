@@ -12,6 +12,7 @@ public class Flight {
     private float price;
     private int numOfStops;
     private List<String> stopoverLocations;
+    private FlightDetails flightDetails; //association 
 
     public int calculateDuration() {
         // Placeholder

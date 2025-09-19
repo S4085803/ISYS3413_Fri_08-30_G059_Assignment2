@@ -3,7 +3,7 @@
 
 import java.util.List;
 
-public class FlightComparison {
+public class FlightComparison extends Flight {
      private String searchDate;
     private List<Flight> flights;
 
