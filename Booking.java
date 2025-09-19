@@ -1,6 +1,6 @@
 // Authors: 
 // Saneli Ratnayake (s4085803): Vehicle integration
-// Sowndharya (s4090884): Flights integration
+// Sowndharyaa (s4090884): Flights integration
 // Dithara (S4056824): Accommodation integration
 // Contribution: Shared Booking class
 
