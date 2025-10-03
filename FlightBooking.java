@@ -2,6 +2,8 @@
 	
 // Contribution: FlightBooking class-Booking flight
 
+import java.util.List;
+
 public class FlightBooking {
     
     private PaymentGateway paymentGateway;

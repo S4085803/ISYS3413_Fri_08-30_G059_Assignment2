@@ -22,10 +22,22 @@ public class Flight {
         // Placeholder
         return 0;
     }
+    
+    public void setFlightID(String flightID) {
+        this.flightID = flightID;
+    }
 
-    public int calculateFlightTicket() {
-        // Placeholder
-        return 0;
+    public String getFlightID() {
+        return flightID;
+    }
+
+    //Price of the flight ticket
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public float getPrice() {
+        return price;
     }
   
 }
