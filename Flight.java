@@ -15,6 +15,7 @@ public class Flight {
     private String flightType; // "Domestic/International"
     private FlightDetails flightDetails; //association 
 
+    //sample
     public int calculateDuration() {
         // Placeholder
         return 0;
