@@ -15,7 +15,7 @@ public class FlightBooking {
     }
 
     // Book flight
-    public String bookFlight(Flight selectedFlight, User user, BookingOptions options) {
+    public String bookFlight(Flight selectedFlight, Customer customer, BookingOptions options) {
 
         boolean isLocked = lockPrice(selectedFlight);
         boolean isReserved = reserveFlight(selectedFlight);
@@ -24,10 +24,10 @@ public class FlightBooking {
             return "Flight no longer available.";
         }
 
-        boolean paymentSuccess = paymentGateway.processPayment(user.getPaymentInfo());
+        boolean paymentSuccess = paymentGateway.processPayment(customer.getPaymentInfo());
 
         if (paymentSuccess) {
-            sendConfirmationEmail(user, selectedFlight);
+            sendConfirmationEmail(customer, selectedFlight);
             return "Booking confirmed.";
         } else {
             return "Payment failed. Please try again.";
@@ -46,7 +46,7 @@ public class FlightBooking {
         return true;
     }
 
-    private void sendConfirmationEmail(User user, Flight flight) {
-        emailService.sendEmail(user.getEmail(), "Booking Confirmed for " + flight.getFlightID());
+    private void sendConfirmationEmail(Customer customer, Flight flight) {
+        emailService.sendEmail(customer.getEmail(), "Booking Confirmed for " + flight.getFlightID());
     }
 }
