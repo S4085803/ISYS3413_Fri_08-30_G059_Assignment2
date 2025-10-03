@@ -1,5 +1,7 @@
 // Author: Sowndharyaa (s4090884)
+	
 // Contribution: Flight class
+
 
 import java.util.List;
 
@@ -25,4 +27,5 @@ public class Flight {
         // Placeholder
         return 0;
     }
+  
 }
