@@ -17,13 +17,12 @@ public class Payment {
     }
 }
 
-//Author: Sowndharyaa (s4090884)
-//Contribution: Simulates external payment processing
+//Author: Sowndharyaa (s4090884) below is the payment gateway class - external payment 
 
 public class PaymentGateway {
 
  public boolean processPayment(String paymentInfo) {
-     // Placeholder: Simulate payment logic
+     // Payment 
      if (paymentInfo != null && !paymentInfo.isEmpty()) {
          System.out.println("Payment successful.");
          return true;
